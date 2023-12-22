@@ -1,0 +1,30 @@
+h4
+{
+font-size: 50px;
+margin-top: 20px;
+width: 50%;
+}
+
+.btn-success:hover
+{
+    background-color:lightblue;
+    color: black;
+}
+canvas
+{
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+from 
+{
+    box-shadow: 1px 1 px 30px yellow;
+}
+to 
+{
+    box-shadow: 1px 1 px 30px rgb(238, 12, 12);
+}
+}
